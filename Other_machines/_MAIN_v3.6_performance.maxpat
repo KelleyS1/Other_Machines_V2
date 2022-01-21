@@ -10,9 +10,9 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ -29.0, -993.0, 907.0, 959.0 ],
+		"rect" : [ 431.0, 115.0, 677.0, 959.0 ],
 		"bglocked" : 0,
-		"openinpresentation" : 0,
+		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
 		"default_fontface" : 0,
 		"default_fontname" : "Arial",
@@ -9470,7 +9470,6 @@
 						"style" : "",
 						"subpatcher_template" : "",
 						"assistshowspatchername" : 0,
-						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"fontname" : "Arial",
@@ -23150,7 +23149,7 @@
 					"allowdrag" : 0,
 					"elementcolor" : [ 0.0, 0.16078431372549, 0.396078431372549, 1.0 ],
 					"id" : "obj-227",
-					"items" : [ "MIDI Expression RED", ",", "nanoKONTROL2 SLIDER/KNOB", ",", "M4", ",", "to Max 1", ",", "to Max 2" ],
+					"items" : [ "MIDI Expression RED", ",", "nanoKONTROL2 SLIDER/KNOB", ",", "to Max 1", ",", "to Max 2" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -23317,7 +23316,7 @@
 					"bgfillcolor_type" : "gradient",
 					"elementcolor" : [ 0.0, 0.16078431372549, 0.396078431372549, 1.0 ],
 					"id" : "obj-48",
-					"items" : [ "MIDI Expression RED", ",", "nanoKONTROL2 SLIDER/KNOB", ",", "M4", ",", "to Max 1", ",", "to Max 2" ],
+					"items" : [ "MIDI Expression RED", ",", "nanoKONTROL2 SLIDER/KNOB", ",", "to Max 1", ",", "to Max 2" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -23493,7 +23492,7 @@
 								"box" : 								{
 									"allowdrag" : 0,
 									"id" : "obj-20",
-									"items" : [ "MIDI Expression RED", ",", "nanoKONTROL2 SLIDER/KNOB", ",", "M4", ",", "to Max 1", ",", "to Max 2" ],
+									"items" : [ "MIDI Expression RED", ",", "nanoKONTROL2 SLIDER/KNOB", ",", "to Max 1", ",", "to Max 2" ],
 									"maxclass" : "umenu",
 									"numinlets" : 1,
 									"numoutlets" : 3,
@@ -23602,7 +23601,7 @@
 								"box" : 								{
 									"allowdrag" : 0,
 									"id" : "obj-88",
-									"items" : [ "MIDI Expression RED", ",", "nanoKONTROL2 SLIDER/KNOB", ",", "M4", ",", "to Max 1", ",", "to Max 2" ],
+									"items" : [ "MIDI Expression RED", ",", "nanoKONTROL2 SLIDER/KNOB", ",", "to Max 1", ",", "to Max 2" ],
 									"maxclass" : "umenu",
 									"numinlets" : 1,
 									"numoutlets" : 3,
@@ -38428,77 +38427,77 @@
 		"dependency_cache" : [ 			{
 				"name" : "freepaf~.maxpat",
 				"bootpath" : "~/Documents/Max 8/Library/CNMAT-MMJ-Depot-master/patchers/synthesis",
-				"patcherrelativepath" : "../../../Documents/Max 8/Library/CNMAT-MMJ-Depot-master/patchers/synthesis",
+				"patcherrelativepath" : "../../../Max 8/Library/CNMAT-MMJ-Depot-master/patchers/synthesis",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "nothing.maxpat",
 				"bootpath" : "~/Documents/Max 8/Library/CNMAT-MMJ-Depot-master/patchers/basic_programming",
-				"patcherrelativepath" : "../../../Documents/Max 8/Library/CNMAT-MMJ-Depot-master/patchers/basic_programming",
+				"patcherrelativepath" : "../../../Max 8/Library/CNMAT-MMJ-Depot-master/patchers/basic_programming",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "uc_license.maxpat",
 				"bootpath" : "~/Documents/Max 8/Library/CNMAT-MMJ-Depot-master/patchers/depot_support",
-				"patcherrelativepath" : "../../../Documents/Max 8/Library/CNMAT-MMJ-Depot-master/patchers/depot_support",
+				"patcherrelativepath" : "../../../Max 8/Library/CNMAT-MMJ-Depot-master/patchers/depot_support",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "cnmat_blue.gif",
 				"bootpath" : "~/Documents/Max 8/Library/CNMAT-MMJ-Depot-master/media/Images",
-				"patcherrelativepath" : "../../../Documents/Max 8/Library/CNMAT-MMJ-Depot-master/media/Images",
+				"patcherrelativepath" : "../../../Max 8/Library/CNMAT-MMJ-Depot-master/media/Images",
 				"type" : "GIFf",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "sw.maxpat",
 				"bootpath" : "~/Library/Application Support/Cycling '74/Max 8/Examples/max-tricks/send-receive-tricks/lib",
-				"patcherrelativepath" : "../../../Library/Application Support/Cycling '74/Max 8/Examples/max-tricks/send-receive-tricks/lib",
+				"patcherrelativepath" : "../../../../Library/Application Support/Cycling '74/Max 8/Examples/max-tricks/send-receive-tricks/lib",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "zsa.easy_freqpeak~.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/zsa.descriptors/misc",
-				"patcherrelativepath" : "../../../Documents/Max 8/Packages/zsa.descriptors/misc",
+				"patcherrelativepath" : "../../../Max 8/Packages/zsa.descriptors/misc",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "zsa.abs_freqpeak~.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/zsa.descriptors/misc",
-				"patcherrelativepath" : "../../../Documents/Max 8/Packages/zsa.descriptors/misc",
+				"patcherrelativepath" : "../../../Max 8/Packages/zsa.descriptors/misc",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "zsa.abs_mel_K.maxpat",
 				"bootpath" : "~/Documents/Projects/Other_machines",
-				"patcherrelativepath" : "../../../Documents/Projects/Other_machines",
+				"patcherrelativepath" : "../../../Projects/Other_machines",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "zsa.easy_mel~.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/zsa.descriptors/misc",
-				"patcherrelativepath" : "../../../Documents/Max 8/Packages/zsa.descriptors/misc",
+				"patcherrelativepath" : "../../../Max 8/Packages/zsa.descriptors/misc",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "zsa.abs_mel~.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/zsa.descriptors/misc",
-				"patcherrelativepath" : "../../../Documents/Max 8/Packages/zsa.descriptors/misc",
+				"patcherrelativepath" : "../../../Max 8/Packages/zsa.descriptors/misc",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "smooth_abstract.maxpat",
 				"bootpath" : "~/Documents/Max 8/Library/abstractions",
-				"patcherrelativepath" : "../../../Documents/Max 8/Library/abstractions",
+				"patcherrelativepath" : "../../../Max 8/Library/abstractions",
 				"type" : "JSON",
 				"implicit" : 1
 			}
