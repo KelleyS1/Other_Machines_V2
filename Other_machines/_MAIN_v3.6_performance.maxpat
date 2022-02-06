@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 431.0, 115.0, 677.0, 959.0 ],
+		"rect" : [ 431.0, 115.0, 879.0, 959.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -552,7 +552,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 643.0, 100.0, 952.0, 480.0 ],
+						"rect" : [ 1283.0, 173.0, 952.0, 480.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -581,6 +581,31 @@
 						"subpatcher_template" : "",
 						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
+								"box" : 								{
+									"id" : "obj-37",
+									"maxclass" : "message",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 124.742261052131653, 329.896888732910156, 50.0, 22.0 ],
+									"text" : "set 7"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"format" : 6,
+									"id" : "obj-9",
+									"maxclass" : "flonum",
+									"numinlets" : 1,
+									"numoutlets" : 2,
+									"outlettype" : [ "", "bang" ],
+									"parameter_enable" : 0,
+									"patching_rect" : [ 174.226794362068176, 358.762866497039795, 50.0, 22.0 ]
+								}
+
+							}
+, 							{
 								"box" : 								{
 									"comment" : "",
 									"id" : "obj-26",
@@ -789,7 +814,7 @@
 									"numinlets" : 0,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 121.736835479736328, 81.815816283226013, 79.0, 22.0 ],
+									"patching_rect" : [ 121.736835479736328, 78.815816283226013, 79.0, 22.0 ],
 									"text" : "receive midi2"
 								}
 
@@ -837,7 +862,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "int", "int" ],
-									"patching_rect" : [ 121.736835479736328, 114.056163505448239, 42.0, 22.0 ],
+									"patching_rect" : [ 121.736835479736328, 110.963380173577207, 42.0, 22.0 ],
 									"text" : "ctlin 0"
 								}
 
@@ -4726,7 +4751,7 @@
  ]
 									}
 ,
-									"patching_rect" : [ 11.236835479736328, 341.166650950908661, 63.0, 24.0 ],
+									"patching_rect" : [ 11.236835479736328, 338.066667199134827, 63.0, 24.0 ],
 									"saved_object_attributes" : 									{
 										"description" : "",
 										"digest" : "",
@@ -4768,7 +4793,7 @@
 									"numinlets" : 0,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 11.236835479736328, 193.066667199134827, 73.0, 22.0 ],
+									"patching_rect" : [ 44.236835479736328, 194.635100559128659, 73.0, 22.0 ],
 									"text" : "receive midi"
 								}
 
@@ -4780,7 +4805,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "int", "int" ],
-									"patching_rect" : [ 11.236835479736328, 289.8666672706604, 47.0, 22.0 ],
+									"patching_rect" : [ 11.236835479736328, 278.526461720466614, 47.0, 22.0 ],
 									"text" : "ctlin 69"
 								}
 
@@ -4957,6 +4982,15 @@
 								"patchline" : 								{
 									"destination" : [ "obj-138", 0 ],
 									"midpoints" : [ 66.736835479736328, 177.4333336353302, 20.736835479736328, 177.4333336353302 ],
+									"order" : 1,
+									"source" : [ "obj-2", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-37", 1 ],
+									"order" : 0,
 									"source" : [ "obj-2", 0 ]
 								}
 
@@ -4973,6 +5007,15 @@
 								"patchline" : 								{
 									"destination" : [ "obj-45", 1 ],
 									"source" : [ "obj-21", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-138", 0 ],
+									"midpoints" : [ 131.236835479736328, 189.171139001846313, 20.736835479736328, 189.171139001846313 ],
+									"order" : 2,
+									"source" : [ "obj-229", 0 ]
 								}
 
 							}
@@ -5099,18 +5142,8 @@
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-138", 0 ],
-									"midpoints" : [ 20.736835479736328, 317.9333336353302, 20.736835479736328, 317.9333336353302 ],
-									"order" : 1,
-									"source" : [ "obj-50", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
 									"destination" : [ "obj-28", 0 ],
-									"midpoints" : [ 20.736835479736328, 235.566667199134827, 53.736835479736328, 235.566667199134827 ],
-									"order" : 0,
+									"midpoints" : [ 53.736835479736328, 235.566667199134827, 53.736835479736328, 235.566667199134827 ],
 									"source" : [ "obj-50", 0 ]
 								}
 
@@ -18448,7 +18481,7 @@
 									"presentation" : 1,
 									"presentation_rect" : [ 22.0, 136.95145720243454, 142.0, 75.0 ],
 									"setminmax" : [ 0.0, 1.0 ],
-									"size" : 8,
+									"size" : 24,
 									"slidercolor" : [ 0.85098, 0.533333, 0.254902, 1.0 ]
 								}
 
@@ -23149,7 +23182,7 @@
 					"allowdrag" : 0,
 					"elementcolor" : [ 0.0, 0.16078431372549, 0.396078431372549, 1.0 ],
 					"id" : "obj-227",
-					"items" : [ "MIDI Expression RED", ",", "nanoKONTROL2 SLIDER/KNOB", ",", "to Max 1", ",", "to Max 2" ],
+					"items" : [ "MIDI Expression RED", ",", "nanoKONTROL2 SLIDER/KNOB", ",", "M4", ",", "to Max 1", ",", "to Max 2" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -23316,7 +23349,7 @@
 					"bgfillcolor_type" : "gradient",
 					"elementcolor" : [ 0.0, 0.16078431372549, 0.396078431372549, 1.0 ],
 					"id" : "obj-48",
-					"items" : [ "MIDI Expression RED", ",", "nanoKONTROL2 SLIDER/KNOB", ",", "to Max 1", ",", "to Max 2" ],
+					"items" : [ "MIDI Expression RED", ",", "nanoKONTROL2 SLIDER/KNOB", ",", "M4", ",", "to Max 1", ",", "to Max 2" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -23492,7 +23525,7 @@
 								"box" : 								{
 									"allowdrag" : 0,
 									"id" : "obj-20",
-									"items" : [ "MIDI Expression RED", ",", "nanoKONTROL2 SLIDER/KNOB", ",", "to Max 1", ",", "to Max 2" ],
+									"items" : [ "MIDI Expression RED", ",", "nanoKONTROL2 SLIDER/KNOB", ",", "M4", ",", "to Max 1", ",", "to Max 2" ],
 									"maxclass" : "umenu",
 									"numinlets" : 1,
 									"numoutlets" : 3,
@@ -23601,7 +23634,7 @@
 								"box" : 								{
 									"allowdrag" : 0,
 									"id" : "obj-88",
-									"items" : [ "MIDI Expression RED", ",", "nanoKONTROL2 SLIDER/KNOB", ",", "to Max 1", ",", "to Max 2" ],
+									"items" : [ "MIDI Expression RED", ",", "nanoKONTROL2 SLIDER/KNOB", ",", "M4", ",", "to Max 1", ",", "to Max 2" ],
 									"maxclass" : "umenu",
 									"numinlets" : 1,
 									"numoutlets" : 3,
